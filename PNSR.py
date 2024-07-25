@@ -29,7 +29,7 @@ def main():
     a = Compare()
 
     # Read the original and the stego images
-    img1_path = "./Images/Penguin.png"
+    img1_path = "./Images/Apple.png"
     img2_path = "./output/encrypted.png"
 
     img1 = cv2.imread(img1_path)

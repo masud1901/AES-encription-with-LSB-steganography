@@ -35,10 +35,10 @@ def encode_image(image_path, message, output_path):
 
 # Example usage
 if __name__ == "__main__":
-    input_image = "./Images/Penguin.png"
+    input_image = "./Images/Apple.png"
     output_image = "./output/encrypted.png"
     secret_message = "Ki obostha kemon acho? ami valoi mon\
-    ton kharap ki kora jay bujhte parchina"
+    ton kharap ki kora jay bujhte parchina. aowigh gio GH"
 
     try:
         encode_image(input_image, secret_message, output_image)
